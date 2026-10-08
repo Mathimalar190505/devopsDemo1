@@ -15,7 +15,7 @@ public class DevopsDemo1Application {
 
 	@GetMapping("/")
 	public String home() {
-		return "Hello from DevOps Demo App!";
+		return "Hello from DevOps Demo App!"; //Changed remotely
 	}
 
 	@GetMapping("/status")
